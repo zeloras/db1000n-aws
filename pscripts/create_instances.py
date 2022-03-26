@@ -15,8 +15,8 @@ userdata = """#cloud-config
      - mkswap /swapfile
      - swapon /swapfile
      - echo "/swapfile swap swap defaults 0 0"|tee -a /etc/fstab
-     - wget https://github.com/Arriven/db1000n/releases/download/v0.7.12/db1000n-v0.7.12-linux-amd64.tar.gz
-     - tar -xf db1000n-v0.7.12-linux-amd64.tar.gz
+     - wget https://github.com/Arriven/db1000n/releases/download/v0.8.8/db1000n_0.8.8_darwin_amd64.tar.gz
+     - tar -xf db1000n_0.8.8_darwin_amd64.tar.gz
      - chmod +x db1000n
      - nohup ./db1000n &
 """
